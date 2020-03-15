@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Localization>
+    <LocalizationGroup Name="Enums">
+      <LocalizationGroup Name="DevExpress.XtraPrinting.ExportTarget" IsNewNode="True" />
+    </LocalizationGroup>
+  </Localization>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" ViewId="Members_ListView">
+        <Items>
+          <Item Id="Buildings_ListView" ViewId="Buildings_ListView" ObjectKey="" Index="0" IsNewNode="True" />
+          <Item Id="Apartments_ListView" ViewId="Apartments_ListView" ObjectKey="" Index="1" IsNewNode="True" />
+          <Item Id="ApartmentTypes_ListView" ViewId="ApartmentTypes_ListView" ObjectKey="" Index="2" IsNewNode="True" />
+          <Item Id="Members_ListView" ViewId="Members_ListView" ObjectKey="" Index="3" IsNewNode="True" />
+          <Item Id="Staffs_ListView" ViewId="Staffs_ListView" ObjectKey="" Index="4" IsNewNode="True" />
+          <Item Id="Suppliers_ListView" ViewId="Suppliers_ListView" ObjectKey="" Index="5" IsNewNode="True" />
+          <Item Id="Assets_ListView" ViewId="Assets_ListView" ObjectKey="" Index="6" IsNewNode="True" />
+          <Item Id="Accounts" Removed="True">
+            <Items>
+              <Item Id="Members_ListView" Removed="True" />
+              <Item Id="Staffs_ListView" Removed="True" />
+              <Item Id="Suppliers_ListView" Removed="True" />
+            </Items>
+          </Item>
+          <Item Id="BloodTypes_ListView" ViewId="BloodTypes_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="Counties_ListView" ViewId="Counties_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="DuesGroup_ListView" ViewId="DuesGroup_ListView" ObjectKey="" IsNewNode="True" />
+          <Item Id="EducationStatus_ListView" ViewId="EducationStatus_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="Genders_ListView" ViewId="Genders_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="Management" ViewId="MaritalStatus_DetailView" Removed="True">
+            <Items>
+              <Item Id="Assets_ListView" Removed="True" />
+            </Items>
+          </Item>
+          <Item Id="MaritalStatus_ListView" ViewId="MaritalStatus_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="MemberTypes_ListView" ViewId="MemberTypes_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="MilitaryStatus_ListView" ViewId="MilitaryStatus_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="Months_ListView" ViewId="Months_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="Provinces_ListView" ViewId="Provinces_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="SalaryTypes_ListView" ViewId="SalaryTypes_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="Settings" Removed="True">
+            <Items>
+              <Item Id="Apartments_ListView" Removed="True" />
+              <Item Id="ApartmentTypes_ListView" Removed="True" />
+              <Item Id="BloodTypes_ListView" Removed="True" />
+              <Item Id="Buildings_ListView" Removed="True" />
+              <Item Id="Counties_ListView" Removed="True" />
+              <Item Id="DuesGroup_ListView" Removed="True" />
+              <Item Id="EducationStatus_ListView" Removed="True" />
+              <Item Id="Genders_ListView" Removed="True" />
+              <Item Id="MaritalStatus_ListView" Removed="True" />
+              <Item Id="MemberTypes_ListView" Removed="True" />
+              <Item Id="MilitaryStatus_ListView" Removed="True" />
+              <Item Id="Months_ListView" Removed="True" />
+              <Item Id="Provinces_ListView" Removed="True" />
+              <Item Id="SalaryTypes_ListView" Removed="True" />
+              <Item Id="StaffTypes_ListView" Removed="True" />
+              <Item Id="SupplierTypes_ListView" Removed="True" />
+            </Items>
+          </Item>
+          <Item Id="StaffTypes_ListView" ViewId="StaffTypes_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+          <Item Id="SupplierTypes_ListView" ViewId="SupplierTypes_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemMobileModule" Version="19.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="19.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

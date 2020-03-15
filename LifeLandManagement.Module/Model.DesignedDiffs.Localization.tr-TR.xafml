@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Yaşam Alanı Yönetimi" Description="Yaşam Alanı Yönetim Yazılımı">
+  <BOModel>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Account.Members" Caption="Üyeler">
+      <OwnMembers>
+        <Member Name="Apartments" Caption="Daireler" />
+        <Member Name="BloodType" Caption="Kan Grubu" />
+        <Member Name="BuildingName" Caption="Blok Adı" />
+        <Member Name="DuesGroup" Caption="Aidat Grubu" />
+        <Member Name="EducationStatus" Caption="Eğitim Durumu" />
+        <Member Name="Floor" Caption="Kat" />
+        <Member Name="Genders" Caption="Cinsiyet" />
+        <Member Name="MaritalStatus" Caption="Medeni Durumu" />
+        <Member Name="MemberBirthDate" Caption="Üye Doğum Tarihi" />
+        <Member Name="MemberName" Caption="Üye Adı" />
+        <Member Name="MemberPersonalId" Caption="Üye TC Kimlik" />
+        <Member Name="MemberSurname" Caption="Üye Soyadı" />
+        <Member Name="MemberTypes" Caption="Üye Tipi" />
+        <Member Name="MovingDate" Caption="Taşınma Tarihi" />
+        <Member Name="PhoneGsm" Caption="Telefon Gsm" />
+        <Member Name="PhoneOther" Caption="Telefon Diğer" />
+        <Member Name="Profession" Caption="Mesleği" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Account.MemberTypes" Caption="Üye Tipi">
+      <OwnMembers>
+        <Member Name="MemberType" Caption="Üye Tipi" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Account.Staffs" Caption="Personeller">
+      <OwnMembers>
+        <Member Name="Address" Caption="Adres" />
+        <Member Name="Children" Caption="Çocuk Sayısı" />
+        <Member Name="Counties" Caption="İlçe" />
+        <Member Name="EducationStatus" Caption="Eğitim Durumu" />
+        <Member Name="EmergencyCallContactName" Caption="Acil Durumda Aranacak" />
+        <Member Name="EmergencyContactPhone" Caption="Acil Durumda Aranacak Telefon" />
+        <Member Name="EmergencyContactRelation" Caption="Acil Durumda Aranacak Yakınlık Derecesi" />
+        <Member Name="MaritalStatus" Caption="Medeni Durumu" />
+        <Member Name="MilitaryStatus" Caption="Askerlik Durumu" />
+        <Member Name="PhoneGsm" Caption="Telefon Gsm" />
+        <Member Name="PhoneOther" Caption="Telefon Diğer" />
+        <Member Name="Provinces" Caption="Şehir" />
+        <Member Name="SalaryTypes" Caption="Ücret Modeli" />
+        <Member Name="SocialInsurance" Caption="SGK No" />
+        <Member Name="StaffDuty" Caption="Personel Görevi" />
+        <Member Name="StaffIdentity" Caption="Personel TC" />
+        <Member Name="StaffName" Caption="Personel Adı" />
+        <Member Name="StaffSalary" Caption="Personel Maaş" />
+        <Member Name="StaffSurname" Caption="Personel Soyadı" />
+        <Member Name="StaffTypes" Caption="Çalışma Modeli" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Account.Suppliers" Caption="Tedarikçiler">
+      <OwnMembers>
+        <Member Name="Address" Caption="Adres" />
+        <Member Name="Counties" Caption="İlçe" />
+        <Member Name="Duty" Caption="Görevi" />
+        <Member Name="PhoneGsm" Caption="Telefon Gsm" />
+        <Member Name="PhoneOther" Caption="Telefon Diğer" />
+        <Member Name="Provinces" Caption="Şehir" />
+        <Member Name="Responsible" Caption="Yetkili Adı" />
+        <Member Name="SupplierName" Caption="Tedarikçi Adı" />
+        <Member Name="SupplierTypes" Caption="Tedarikçi Türü" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Apartments" Caption="Daireler">
+      <OwnMembers>
+        <Member Name="ApartmentNo" Caption="Daire No" />
+        <Member Name="ApartmentTypes" Caption="Daire Türü" />
+        <Member Name="BuildingName" Caption="Blok Adı" />
+        <Member Name="GrossSquareMeters" Caption="Brüt M^2" />
+        <Member Name="LandShare" Caption="Arsa Payı" />
+        <Member Name="Members" Caption="Üyeler" />
+        <Member Name="NetSquareMeters" Caption="Net M^2" />
+        <Member Name="ParkingLot" Caption="Araç Park Sayısı" />
+        <Member Name="Radiators" Caption="Petek Sayısı" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.ApartmentTypes" Caption="Daire Türleri">
+      <OwnMembers>
+        <Member Name="ApartmentType" Caption="Daire Türü" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Assets" Caption="Demirbaşlar">
+      <OwnMembers>
+        <Member Name="AssetName" Caption="Demirbaş Adı" />
+        <Member Name="DebtTo" Caption="Zimmetli" />
+        <Member Name="Description" Caption="Açıklama" />
+        <Member Name="Price" Caption="Fiyatı" />
+        <Member Name="PurchaserName" Caption="Satınalma Yapan" />
+        <Member Name="PurchasingDate" Caption="Satınalma Tarihi" />
+        <Member Name="SupplierName" Caption="Tedarikçi Adı" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Buildings" Caption="Bloklar">
+      <OwnMembers>
+        <Member Name="ActualStatus" Caption="Aktif Durum" />
+        <Member Name="BuildingName" Caption="Blok Adı" />
+        <Member Name="Members" Caption="Üyeler" />
+        <Member Name="Status" Caption="Durum" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.BloodTypes" Caption="Kan Grubu">
+      <OwnMembers>
+        <Member Name="BloodType" Caption="Kan Grubu" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.Counties" Caption="İlçeler">
+      <OwnMembers>
+        <Member Name="CountyName" Caption="İlçe Adı" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.EducationStatus" Caption="Öğrenim Durumu">
+      <OwnMembers>
+        <Member Name="Education" Caption="Eğitim" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.Genders" Caption="Cinsiyetler">
+      <OwnMembers>
+        <Member Name="Gender" Caption="Cinsiyet" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.MaritalStatus" Caption="Medeni Durumu">
+      <OwnMembers>
+        <Member Name="Status" Caption="Durum" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.MilitaryStatus" Caption="Askerlik Durumu">
+      <OwnMembers>
+        <Member Name="Status" Caption="Durum" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.Months" Caption="Aylar">
+      <OwnMembers>
+        <Member Name="MonthName" Caption="Ay İsimleri" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.Provinces" Caption="Şehirler">
+      <OwnMembers>
+        <Member Name="ProvinceName" Caption="Şehir İsimleri" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.SalaryTypes" Caption="Ücret Modeli">
+      <OwnMembers>
+        <Member Name="Types" Caption="Modeller" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.StaffTypes" Caption="Çalışma Modeli">
+      <OwnMembers>
+        <Member Name="Types" Caption="Modeller" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Enums.SupplierTypes" Caption="Tedarikçi Türleri">
+      <OwnMembers>
+        <Member Name="SupplierType" Caption="Tedarikçi Türü" />
+      </OwnMembers>
+    </Class>
+    <Class Name="LifeLandManagement.Module.BusinessObjects.Settings.DuesGroup" Caption="Aidat Grubu">
+      <OwnMembers>
+        <Member Name="Amount" Caption="Tutar" />
+        <Member Name="GroupName" Caption="Grup Adı" />
+        <Member Name="Members" Caption="Üyeler" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Caption="Yaşam Alanı Yönetimi">
+        <Items>
+          <Item Id="Accounts" Caption="Hesaplar" />
+          <Item Id="Management" Caption="Yönetim" />
+          <Item Id="Settings" Caption="Ayarlar">
+            <Items>
+              <Item Id="Apartments_ListView" Caption="Daireler" />
+              <Item Id="ApartmentTypes_ListView" Caption="Daire Türleri" />
+              <Item Id="Buildings_ListView" Caption="Bloklar" />
+            </Items>
+          </Item>
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>

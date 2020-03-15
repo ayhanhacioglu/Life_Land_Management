@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="Life Land Management" Company="TRcomNet" Copyright="2020" Description="Life Land Management Application">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Caption="Life Land Management">
+        <Items>
+          <Item Id="Accounts" Caption="Accounts" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="Members_ListView" ViewId="Members_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Staffs_ListView" ViewId="Staffs_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Suppliers_ListView" ViewId="Suppliers_ListView" ObjectKey="" IsNewNode="True" />
+            </Items>
+          </Item>
+          <Item Id="Apartments_ListView" Removed="True" />
+          <Item Id="ApartmentTypes_ListView" Removed="True" />
+          <Item Id="Assets_ListView" Removed="True" />
+          <Item Id="BloodTypes_ListView" Removed="True" />
+          <Item Id="Buildings_ListView" Removed="True" />
+          <Item Id="Counties_ListView" Removed="True" />
+          <Item Id="DuesGroup_ListView" Removed="True" />
+          <Item Id="EducationStatus_ListView" Removed="True" />
+          <Item Id="Genders_ListView" Removed="True" />
+          <Item Id="Management" Caption="Management" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="Assets_ListView" ViewId="Assets_ListView" ObjectKey="" IsNewNode="True" />
+            </Items>
+          </Item>
+          <Item Id="MaritalStatus_ListView" Removed="True" />
+          <Item Id="Members_ListView" Removed="True" />
+          <Item Id="MemberTypes_ListView" Removed="True" />
+          <Item Id="MilitaryStatus_ListView" Removed="True" />
+          <Item Id="Months_ListView" Removed="True" />
+          <Item Id="Provinces_ListView" Removed="True" />
+          <Item Id="SalaryTypes_ListView" Removed="True" />
+          <Item Id="Settings" Caption="Settings" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="Apartments_ListView" ViewId="Apartments_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="ApartmentTypes_ListView" ViewId="ApartmentTypes_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="BloodTypes_ListView" ViewId="BloodTypes_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Buildings_ListView" ViewId="Buildings_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Counties_ListView" ViewId="Counties_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="DuesGroup_ListView" ViewId="DuesGroup_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="EducationStatus_ListView" ViewId="EducationStatus_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Genders_ListView" ViewId="Genders_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="MaritalStatus_ListView" ViewId="MaritalStatus_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="MemberTypes_ListView" ViewId="MemberTypes_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="MilitaryStatus_ListView" ViewId="MilitaryStatus_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Months_ListView" ViewId="Months_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Provinces_ListView" ViewId="Provinces_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="SalaryTypes_ListView" ViewId="SalaryTypes_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="StaffTypes_ListView" ViewId="StaffTypes_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="SupplierTypes_ListView" ViewId="SupplierTypes_ListView" ObjectKey="" IsNewNode="True" />
+            </Items>
+          </Item>
+          <Item Id="Staffs_ListView" Removed="True" />
+          <Item Id="StaffTypes_ListView" Removed="True" />
+          <Item Id="Suppliers_ListView" Removed="True" />
+          <Item Id="SupplierTypes_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="19.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Apartments_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="20.133333333333333">
+            <LayoutGroup Id="Apartments" RelativeSize="100">
+              <LayoutGroup Id="Apartments_col1" RelativeSize="49.862637362637365">
+                <LayoutItem Id="ApartmentTypes" RelativeSize="28.571428571428573" />
+                <LayoutItem Id="BuildingName" RelativeSize="21.428571428571427" />
+                <LayoutItem Id="ApartmentNo" RelativeSize="21.428571428571427" />
+                <LayoutItem Id="GrossSquareMeters" RelativeSize="28.571428571428573" />
+              </LayoutGroup>
+              <LayoutGroup Id="Apartments_col2" RelativeSize="50.137362637362635">
+                <LayoutItem Id="NetSquareMeters" RelativeSize="28.571428571428573" />
+                <LayoutItem Id="LandShare" RelativeSize="21.428571428571427" />
+                <LayoutItem Id="ParkingLot" RelativeSize="21.428571428571427" />
+                <LayoutItem Id="Radiators" RelativeSize="28.571428571428573" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="61.333333333333336" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Members_Group" Direction="Vertical" RelativeSize="79.86666666666666">
+            <LayoutItem Id="Members" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="ApartmentTypes_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="ApartmentTypes" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="ApartmentType" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Assets_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Assets" RelativeSize="19.333333333333332">
+              <LayoutGroup Id="Assets_col1" RelativeSize="50">
+                <LayoutItem Id="AssetName" RelativeSize="28.571428571428573" />
+                <LayoutItem Id="Description" RelativeSize="21.428571428571427" />
+                <LayoutItem Id="SupplierName" RelativeSize="21.428571428571427" />
+                <LayoutItem Id="PurchasingDate" RelativeSize="28.571428571428573" />
+              </LayoutGroup>
+              <LayoutGroup Id="Assets_col2" RelativeSize="50">
+                <LayoutItem Id="PurchaserName" RelativeSize="28.571428571428573" />
+                <LayoutItem Id="Price" RelativeSize="21.428571428571427" />
+                <LayoutItem Id="DebtTo" RelativeSize="50" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="80.666666666666671">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="BloodTypes_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="BloodTypes" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="BloodType" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Buildings_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="11.466666666666667">
+            <LayoutGroup Id="Buildings" RelativeSize="100">
+              <LayoutItem Id="BuildingName" RelativeSize="37.2093023255814" />
+              <LayoutItem Id="ActualStatus" RelativeSize="27.906976744186046" />
+              <LayoutItem Id="Status" RelativeSize="34.883720930232556" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="77.066666666666663" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Members_Group" Direction="Vertical" RelativeSize="88.533333333333331">
+            <LayoutItem Id="Members" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Counties_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Counties" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="CountyName" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="DuesGroup_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="8.2666666666666675">
+            <LayoutGroup Id="DuesGroup" RelativeSize="100">
+              <LayoutItem Id="GroupName" RelativeSize="51.612903225806448" />
+              <LayoutItem Id="Amount" RelativeSize="48.387096774193552" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="83.466666666666669" Removed="True">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Members_Group" Direction="Vertical" RelativeSize="91.733333333333334">
+            <LayoutItem Id="Members" RelativeSize="100" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="EducationStatus_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="EducationStatus" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="Education" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Genders_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Genders" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="Gender" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="MaritalStatus_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="MaritalStatus" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="Status" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Members_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Members" RelativeSize="35.333333333333336">
+              <LayoutGroup Id="Members_col1" RelativeSize="50">
+                <LayoutItem Id="MemberTypes" RelativeSize="13.793103448275861" />
+                <LayoutItem Id="Apartments" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="BuildingName" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="DuesGroup" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="MemberName" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="MemberSurname" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="Genders" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="MemberPersonalId" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="MemberBirthDate" RelativeSize="13.793103448275861" />
+              </LayoutGroup>
+              <LayoutGroup Id="Members_col2" RelativeSize="50">
+                <LayoutItem Id="BloodType" RelativeSize="13.793103448275861" />
+                <LayoutItem Id="EducationStatus" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="MaritalStatus" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="PhoneGsm" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="PhoneOther" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="Email" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="Profession" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="Floor" RelativeSize="10.344827586206897" />
+                <LayoutItem Id="MovingDate" RelativeSize="13.793103448275861" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="64.666666666666671">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="MemberTypes_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="MemberTypes" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="MemberType" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="MilitaryStatus_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="MilitaryStatus" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="Status" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Months_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Months" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="MonthName" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Provinces_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Provinces" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="ProvinceName" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SalaryTypes_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="SalaryTypes" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="Types" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Staffs_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Staffs" RelativeSize="41.733333333333334">
+              <LayoutGroup Id="Staffs_col1" RelativeSize="50">
+                <LayoutItem Id="StaffName" RelativeSize="11.428571428571429" />
+                <LayoutItem Id="StaffSurname" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="StaffDuty" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="StaffIdentity" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="PhoneGsm" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="PhoneOther" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="Email" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="Address" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="EmergencyCallContactName" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="EmergencyContactRelation" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="EmergencyContactPhone" RelativeSize="11.428571428571429" />
+              </LayoutGroup>
+              <LayoutGroup Id="Staffs_col2" RelativeSize="50">
+                <LayoutItem Id="StaffSalary" RelativeSize="11.428571428571429" />
+                <LayoutItem Id="Children" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="SocialInsurance" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="Provinces" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="Counties" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="EducationStatus" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="MaritalStatus" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="MilitaryStatus" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="StaffTypes" RelativeSize="8.5714285714285712" />
+                <LayoutItem Id="SalaryTypes" RelativeSize="20" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="58.266666666666666">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="StaffTypes_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="StaffTypes" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="Types" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Suppliers_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="Suppliers" RelativeSize="22.533333333333335">
+              <LayoutGroup Id="Suppliers_col1" RelativeSize="50">
+                <LayoutItem Id="SupplierName" RelativeSize="23.529411764705884" />
+                <LayoutItem Id="Responsible" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="Duty" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="PhoneGsm" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="PhoneOther" RelativeSize="23.529411764705884" />
+              </LayoutGroup>
+              <LayoutGroup Id="Suppliers_col2" RelativeSize="50">
+                <LayoutItem Id="Email" RelativeSize="23.529411764705884" />
+                <LayoutItem Id="Address" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="SupplierTypes" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="Provinces" RelativeSize="17.647058823529413" />
+                <LayoutItem Id="Counties" RelativeSize="23.529411764705884" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="77.466666666666669">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SupplierTypes_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100">
+            <LayoutGroup Id="SupplierTypes" RelativeSize="5.0666666666666664">
+              <LayoutItem Id="SupplierType" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Caption="Oid" Direction="Horizontal" RelativeSize="94.933333333333337">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
