@@ -9,13 +9,14 @@
     <Items>
       <Item Id="Default" ViewId="Members_ListView">
         <Items>
-          <Item Id="Buildings_ListView" ViewId="Buildings_ListView" ObjectKey="" Index="0" IsNewNode="True" />
-          <Item Id="Apartments_ListView" ViewId="Apartments_ListView" ObjectKey="" Index="1" IsNewNode="True" />
-          <Item Id="ApartmentTypes_ListView" ViewId="ApartmentTypes_ListView" ObjectKey="" Index="2" IsNewNode="True" />
-          <Item Id="Members_ListView" ViewId="Members_ListView" ObjectKey="" Index="3" IsNewNode="True" />
-          <Item Id="Staffs_ListView" ViewId="Staffs_ListView" ObjectKey="" Index="4" IsNewNode="True" />
-          <Item Id="Suppliers_ListView" ViewId="Suppliers_ListView" ObjectKey="" Index="5" IsNewNode="True" />
-          <Item Id="Assets_ListView" ViewId="Assets_ListView" ObjectKey="" Index="6" IsNewNode="True" />
+          <Item Id="Buildings_ListView" ViewId="Buildings_ListView" ObjectKey="" Index="0" ImageName="BO_Organization" IsNewNode="True" />
+          <Item Id="Apartments_ListView" ViewId="Apartments_ListView" ObjectKey="" Index="1" ImageName="BO_Address" IsNewNode="True" />
+          <Item Id="ApartmentTypes_ListView" ViewId="ApartmentTypes_ListView" ObjectKey="" Index="2" ImageName="BO_Appearance" IsNewNode="True" />
+          <Item Id="DuesGroup_ListView" ViewId="DuesGroup_ListView" ObjectKey="" Index="3" ImageName="BO_PivotChart" IsNewNode="True" />
+          <Item Id="Members_ListView" ViewId="Members_ListView" ObjectKey="" Index="4" ImageName="BO_Department" IsNewNode="True" />
+          <Item Id="Staffs_ListView" ViewId="Staffs_ListView" ObjectKey="" Index="5" ImageName="BO_Position" IsNewNode="True" />
+          <Item Id="Assets_ListView" ViewId="Assets_ListView" ObjectKey="" Index="6" ImageName="BO_Document" IsNewNode="True" />
+          <Item Id="Suppliers_ListView" ViewId="Suppliers_ListView" ObjectKey="" Index="6" ImageName="BO_Vendor" IsNewNode="True" />
           <Item Id="Accounts" Removed="True">
             <Items>
               <Item Id="Members_ListView" Removed="True" />
@@ -25,7 +26,6 @@
           </Item>
           <Item Id="BloodTypes_ListView" ViewId="BloodTypes_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
           <Item Id="Counties_ListView" ViewId="Counties_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
-          <Item Id="DuesGroup_ListView" ViewId="DuesGroup_ListView" ObjectKey="" IsNewNode="True" />
           <Item Id="EducationStatus_ListView" ViewId="EducationStatus_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
           <Item Id="Genders_ListView" ViewId="Genders_ListView" ObjectKey="" Visible="False" IsNewNode="True" />
           <Item Id="Management" ViewId="MaritalStatus_DetailView" Removed="True">
